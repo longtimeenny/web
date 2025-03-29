@@ -1,6 +1,6 @@
 // تكوين عناوين API
-const PRODUCTION_API_URL = 'https://[your-username].pythonanywhere.com';  // قم بتغيير [your-username] إلى اسم المستخدم الخاص بك على PythonAnywhere
-const DEVELOPMENT_API_URL = 'http://127.0.0.1:5001';
+const PRODUCTION_API_URL = 'https://mkhzenapi.pythonanywhere.com';  // قم بتغيير [your-username] إلى اسم المستخدم الخاص بك على PythonAnywhere
+const DEVELOPMENT_API_URL = 'https://mkhzenapi.pythonanywhere.com';
 
 // تحديد البيئة الحالية
 const isDevelopment = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
