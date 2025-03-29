@@ -1,0 +1,51 @@
+{
+    "22": {
+        "model_number": "22",
+        "image_url": "https://i.ibb.co/7xyd8bb4/ss.jpg",
+        "colors": {
+            "red": {
+                "XXL": 31
+            }
+        }
+    },
+    "23": {
+        "model_number": "23",
+        "image_url": "https://i.ibb.co/My2QQxHJ/image.png",
+        "colors": {
+            "reddd": {
+                "XXL": 55
+            }
+        }
+    },
+    "77": {
+        "model_number": "77",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg",
+        "colors": {
+            "احمر": {
+                "L": 199,
+                "S": 44
+            },
+            "وردي": {
+                "S": 21
+            }
+        }
+    },
+    "88": {
+        "model_number": "88",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg",
+        "colors": {
+            "ببي": {
+                "يبس": 55
+            }
+        }
+    },
+    "777": {
+        "model_number": "777",
+        "image_url": null,
+        "colors": {
+            "ered": {
+                "f444": 44
+            }
+        }
+    }
+}

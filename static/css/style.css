@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.table img {
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.color-entry .card {
+    background-color: #f8f9fa;
+}
+
+#productDetails img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-info {
+    color: #fff;
+}
+
+.size-entry {
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .size-entry {
+        flex-direction: column;
+        gap: 0.5rem !important;
+    }
+    
+    .size-entry .btn {
+        width: 100%;
+    }
+}
+
+/* تنسيقات صفحة المنتجات */
+.product-card {
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image-container {
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0.5rem;
+}
+
+.product-image-large {
+    max-height: 500px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+#productsGrid .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+/* تنسيقات صفحة المبيعات */
+.sale-image {
+    border-radius: 4px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 2px;
+    height: 50px;
+}
+
+#salesTable tr {
+    vertical-align: middle;
+}
+
+/* تنسيقات النافذة المنبثقة للصور */
+#imageModal .modal-body {
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+#imageModal .modal-body img {
+    max-height: 80vh;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.product-image:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+.sale-image:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.no-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}

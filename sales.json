@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "date": "2025-03-29 10:47:07",
+        "model_number": "22",
+        "color": "red",
+        "size": "XXL",
+        "image_url": "https://i.ibb.co/7xyd8bb4/ss.jpg"
+    },
+    {
+        "id": 2,
+        "date": "2025-03-29 10:50:47",
+        "model_number": "77",
+        "color": "احمر",
+        "size": "L",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg"
+    },
+    {
+        "id": 3,
+        "date": "2025-03-29 10:56:55",
+        "model_number": "77",
+        "color": "وردي",
+        "size": "S",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg"
+    },
+    {
+        "id": 4,
+        "date": "2025-03-29 11:05:04",
+        "model_number": "77",
+        "color": "احمر",
+        "size": "L",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg"
+    },
+    {
+        "id": 5,
+        "date": "2025-03-29 11:06:58",
+        "model_number": "22",
+        "color": "red",
+        "size": "XXL",
+        "image_url": "https://i.ibb.co/7xyd8bb4/ss.jpg"
+    },
+    {
+        "id": 6,
+        "date": "2025-03-29 11:07:13",
+        "model_number": "77",
+        "color": "احمر",
+        "size": "L",
+        "image_url": "https://i.ibb.co/9HBG2S3R/image.jpg"
+    }
+]
